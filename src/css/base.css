@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: Inter;
+  src: url('./fonts/Inter-Regular.ttf') format('TrueType');
+}
+
+@layer base {
+  .router-link-active {
+    @apply bg-gray-100;
+
+    & > .nav-icon {
+      @apply text-warning-500;
+    }
+
+    & > .nav-label {
+      @apply text-gray-700;
+    }
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--gray-100, #f2f4f7);
+}
