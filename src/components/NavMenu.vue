@@ -11,7 +11,7 @@ const items = ref(routes)
 
 <template>
   <aside
-    class="w-260 h-screen bg-white flex flex-col justify-between border-r border-solid border-gray-200"
+    class="w-260 h-screen fixed bg-white flex flex-col justify-between border-r border-solid border-gray-200"
   >
     <div class="aside-header">
       <div class="pl-4 py-3">

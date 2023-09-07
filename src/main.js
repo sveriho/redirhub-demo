@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import PrimeVue from 'primevue/config'
-import Tailwind from 'primevue/passthrough/tailwind'
+import Tailwind from './tailwind'
 
 import router from './router'
 import App from './App.vue'

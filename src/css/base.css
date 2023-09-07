@@ -21,6 +21,12 @@
   }
 }
 
+@layer base {
+  .list-container div[data-pc-name='card'] div[data-pc-section='content'] {
+    @apply py-2;
+  }
+}
+
 body {
   margin: 0;
   background: var(--gray-100, #f2f4f7);

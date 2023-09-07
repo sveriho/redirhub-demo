@@ -28,10 +28,10 @@ const toggleMenu = (event) => {
 
 <template>
   <header class="px-6 h-65 bg-white flex justify-between">
-    <div class="search-bar">
-      <span class="p-input-icon-left">
-        <i class="pi pi-search" />
-        <InputText class="border-none" v-model="value" placeholder="Search" />
+    <div class="flex items-center grow">
+      <span class="p-input-icon-left w-full relative">
+        <i class="pi pi-search absolute top-2 left-2 text-gray-600" />
+        <InputText class="w-4/5 border-none pl-8" v-model="value" placeholder="Search" />
       </span>
     </div>
     <div class="user flex items-center gap-2">

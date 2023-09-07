@@ -6,9 +6,9 @@ import NavMenu from './components/NavMenu.vue'
 <template>
   <main class="flex">
     <NavMenu />
-    <div class="grow">
+    <div class="ml-[260px] grow">
       <AppHeader />
-      <div class="p-8">
+      <div class="p-8 pb-0">
         <router-view></router-view>
       </div>
     </div>
